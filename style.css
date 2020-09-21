@@ -1,0 +1,32 @@
+
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 55px;
+}
+
+
+  .books {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .book {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .book-image {
+    max-width: 100%;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  }
